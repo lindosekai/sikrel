@@ -1,0 +1,15 @@
+tree mifamilia
+mifamilia desc:arbol de mi familia desde mis abuelos
+mifamilia title:Mi Familia
+node abuelos1
+abuelos1 tag:los padres de mi mama
+abuelos1 txt:papas de mi mama
+node abuelo
+node abuela
+abuelo tag:papa de mi mama
+abuelo txt:Eduado Escalante Naranjo
+abuela tag:mama de mi mama
+abuela txt:Soledad Mendez Arias
+abuelos1 addnode:abuelo
+abuelos1 addnode:abuela
+mifamilia addnode:abuelos1

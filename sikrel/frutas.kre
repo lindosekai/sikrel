@@ -1,0 +1,13 @@
+list frutas:fresa,uva,manzana,pera
+list verduras:tomate,zanahoria,maiz,frijol
+list otras:sandia,melon,guayaba
+define naranja:es una fruta redonda de sabor acido
+
+object naranja
+naranja form circle
+naranja color orange
+
+object pera
+pera form oval
+pera color green
+

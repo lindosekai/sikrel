@@ -1,0 +1,59 @@
+:: Este documento es la copia actualizada del documento anterior
+:: 31 de enero del 2013
+:: NeopathIC Engineering
+
+SIKREL
+Simple Knowledge Representation Language
+
+= introduccion =
+
+SIKREL se define como un lenguaje sencillo para representacion de conocimientos en documento de texto plano con extension ".kre".
+
+Los documentos de conocimiento definiran varios componentes basicos para el funcionamiento de los mismos.
+
+- listas
+- definiciones
+- objetos
+- arboles
+
+
+ == listas ==
+   son colecciones de datos similares, por lo general son datos del mismo campo semantico
+   list listname:cosa1, cosa2, cosa3 ...
+
+ == Operaciones con Listas ==
+   listar listax : esta funcion muestra todos elementos de la listax
+   cout listax : obtiene la cantidad de elementos que tiene la listax
+   head n listax : muestra los primeros n elementos de la listax
+   tail n listax : muestra los ultimos n elementos de la listax
+
+ == definiciones ==
+   son explicaciones y descripciones de un concepto, detalles en forma de diccionario
+   define concepto:descripcion
+
++listas de definiciones
+   colecciones de definiciones
+   lidef def1,def2,def3, ...
+
++listas de listas
+   son listas similares de listas de colecciones similares
+   lili list1,list2,list3,...
+
+= Comandos Basicos =
+
++ ver lista
+muestra el contenido de una lista en pantalla
+listme listname
+
++ver definicion
+muestra la definicion de un concepto dado
+whatis concepto
+
++ver arbol - todo
+muestra en forma de arbol, la informacion contenida de un documento . kre
+viewall
+
+= ejemplo de documento SIKREL =
+
+list frutas:uva,fresa,manzana
+list marcas_carros:ford,bmw,chevrolet

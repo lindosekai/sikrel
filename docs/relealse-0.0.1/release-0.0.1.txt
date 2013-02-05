@@ -1,0 +1,45 @@
+SIKREL
+Simple Knowledge Representation Language
+
+= introduccion =
+
+SIKREL se define como un lenguaje sencill para representacion de conocimientos en documento de texto plano con extension ".kre".
+
+KREAD es la aplicacion que lee el documento .kre y responde preguntas con el documento .kre en cuestion.
+
+ = Elementos basicos de SIKREL en la version 0.0.1 = 
+
++listas
+   son colecciones de datos similares
+   list listname:cosa1, cosa2, cosa3 ...
+
++definiciones
+   son explicaciones y descripciones de un concepto
+   define concepto:descripcion
+
++listas de definiciones
+   colecciones de definiciones
+   lidef def1,def2,def3, ...
+
++listas de listas
+   son listas similares de listas de colecciones similares
+   lili list1,list2,list3,...
+
+= Comandos Basicos =
+
++ ver lista
+muestra el contenido de una lista en pantalla
+listme listname
+
++ver definicion
+muestra la definicion de un concepto dado
+whatis concepto
+
++ver arbol - todo
+muestra en forma de arbol, la informacion contenida de un documento . kre
+viewall
+
+= ejemplo de documento SIKREL =
+
+list frutas:uva,fresa,manzana
+list marcas_carros:ford,bmw,chevrolet

@@ -1,0 +1,20 @@
+define naranja:es una fruta de color naranja y sabor acido
+define uva:es una fruta de color morado y sabor dulce
+define fresa:es una fruta de color rojo con un sabor peculiar
+define manzana:es una fruta de forma esferica que se manifiesta de varios colores
+
+object naranja
+naranja color orange
+naranja form esferico
+
+object uva
+uva color morado
+uva form esferico
+
+object fresa
+fresa color rojo
+fresa form cubo
+
+object manzana
+manzana color rojo,verde,amarillo
+manzana form esferico
